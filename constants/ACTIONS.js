@@ -1,0 +1,113 @@
+const FLAGS = {
+    TAB: {
+        VERIFY_JS: 'VERIFY JS',
+        JS_ALREADY_INJECTED: 'JS ALREADY INJECTED',
+        JS_NOT_INJECTED_YET: 'JS NOT INJECTED YET',
+        SELECTED: 'TAB SELECTED',
+        UPDATED: 'TABUPDATED',
+        SEND_MESSAGE: 'SEND MESSAGE',
+        SEND_MESSAGE_ACTIVE_TAB:'SEND MESSAGE TO ACTIVE TABE',
+        MESSAGE_REACHED: 'MESSAGE REACHED THE DESTINATION',
+        MESSAGE_DID_NOT_REACHED: 'MESSAGE DID NOT REACHED THE DESTINATION',
+        REMOVED: 'TAB REMOVED',
+        JS_IS_INJECTED: 'JS IS INJECTED',
+        CREATE:'CREATE TAB',
+        OPEN_WEB_APP:'OPEN WEB APP',
+        WEB_APP_OPENED:'WEB APP OPENED',
+        CREATED:'TAB CREATED'
+    },
+    MESSENGER: {
+        SEND_MESSAGE: 'SEND MESSAGE',
+        MESSAGE_REACHED: 'MESSAGE REACHED THE DESTINATION',
+        MESSAGE_DID_NOT_REACHED: 'MESSAGE DID NOT REACHED THE DESTINATION',
+        MESSAGE_ARRIVED: 'MESSAGE ARRIVED',
+        FILTER_MESSAGE: 'FILTER MESSAGE',
+        RESPOND: 'RESPOND'
+    },
+    SCRIPT: {
+        INJECT_JS: 'INJECT JS',
+        INJECT_CSS: 'INJECT CSS',
+        JS_TIME_OUT: 'JS TIME OUT',
+        CSS_TIME_OUT: 'CSS TIME OUT',
+        JS_INJECTED: 'JS INJECTED'
+    },
+    POPUP: {
+        SET_UP: 'SET UP',
+        DISPLAY_TABLES_LIST: 'DISPLAY TABLES LIST',
+        READY: 'POPUP READY',
+        ACTION: {
+            SET_BADGE: 'SET BADGE',
+            SET_POPUP: 'SET POPUP',
+            CLICKED: 'CLICKED'
+        }
+    },
+    TABLE: {
+        FIND: 'FIND TABLES',
+        GET_ROWS: 'GET ROWS',
+        TABLES_FOUND: 'TABLES FOUND',
+        ROWS_READY: 'ROWS READY',
+        VIEW: 'VIEW TABLE',
+        EXPORT_TO_CSV: 'EXPORT TO CSV',
+        EXPORT_TO_EXCEL: 'EXPORT TO EXCEL',
+        COPY_TO_CLIPBOARD: 'COPY TO CLIPBOARD',
+        SYNC:'SYNC THE TABLE',
+        STORED:'TABLE STORED',
+        JSON:{
+            TRANSFORM:'TO JSON',
+            TRANSFORMED:'TRANSFORMED TO JSON',
+            SET_TABLES:'SET TABLES'
+        },
+        DO:'TABLE DO ACTION'
+        
+    },
+    STORE: {
+        ADD: 'ADD',
+        RESET: 'RESET',
+        UPDATED: 'UPDATED',
+        GET: 'GET'
+    },
+    MARKER: {
+        MARK: 'MARK',
+        SCROLL_TO: 'SCROLL TO',
+        CLICKED: 'CLICKED'
+    },
+    EXPORTATION_DIALOG:{
+        SHOW:'SHOW DIALOG',
+        HIDE:'HIDE DIALOG'
+    },
+    WINDOW: {
+        READY: 'WINDOW READY',
+        LOAD:'WINDOW LOADED',
+        SCROLL_TO:'SCROLL TO',
+        CLOSE:'WINDO CLOSE',
+        EVENTS:{
+            CLICK:'WINDOW CLICKED'
+        }
+    },
+    BACKGROUND:{
+        SET_CURRENT_TAB:'SET CURRENT TAB',
+        ADD_TAB:'ADD TAB'
+    },
+    USER:{
+        ADD_TAB:'USER ADD TAB',
+        VIEW_TABS:'USER VIEW TABS'
+    },
+    MODAL:{
+        SHOW_INFO:'SHOW INFO',
+        SAVE_INFO:'ADD INFO',
+        HIDE:'HIDE MODAL',
+        ADD_SHELF:'ADD SHELF'
+    },
+    INFO:{
+        READY:'INFO READY'
+    },
+    STORAGE:{
+        SET:'STORAGE SET',
+        GET:'STORAGE GET',
+        STORED:'STORAGE STORED',
+        DATA_READY:'STORAGE DATA READY'
+    }
+
+}
+
+export default FLAGS;
